@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(120deg, #56a120, #65d615);
+}
+
+.column {
+    border: 2px solid black ;
+    border-radius: 10px;
+    background: #4b8b1d;
+}
+
+#standardBtn, #metricBtn {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    background: #336e08;
+    box-shadow: 2px 2px #5ec415;
+}
+
+#standardBtn:hover, #metricBtn:hover {
+    background: #56a120;
+}
+
+#feetDiv {
+    display: none;
+}
+
+@media(max-width: 992px) {
+    input[type="number"] {
+        font-size: 0.8rem;
+    }
+}
+@media(max-width: 772px) {
+    input[type="number"] {
+        font-size: 0.6rem;
+    }
+}
+
